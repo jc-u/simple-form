@@ -1,4 +1,4 @@
-const ResultsForm = ({ formData }) => {
+const ResultsForm = ({ formData, button }) => {
 	return (
 		<>
 			<h1>Results</h1>
@@ -8,7 +8,9 @@ const ResultsForm = ({ formData }) => {
 					<span>Email : {formData.email}</span>
 					<span>Password : {formData.password}</span>
 				</div>
-				<button className="back-button">Edit your information</button>
+				<button onClick={button} className="back-button">
+					Edit your information
+				</button>
 			</div>
 		</>
 	);

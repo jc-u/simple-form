@@ -1,0 +1,94 @@
+.container,
+.results,
+.results > div {
+	display: flex;
+	flex-direction: column;
+}
+
+.container,
+.results {
+	align-items: center;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0em;
+}
+
+form > span {
+	font-size: 12px;
+}
+
+form input {
+	width: 300px;
+	border: 1px solid #d3d3d3;
+	outline: none;
+	height: 45px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #fcf9f9;
+	padding-left: 10px;
+	margin: 5px 0 25px;
+}
+
+.back-button,
+.submit-button {
+	color: #fff;
+	background-color: #5c47d3;
+	border: 1px solid #5c47d3;
+	font-size: 15px;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+.results > div {
+	width: 250px;
+	background-color: #f2f2f2;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+.results > div > span:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.back-button {
+	width: 250px;
+	outline: none;
+	height: 45px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.error {
+	border-color: red;
+}
+
+.password,
+.confirm-password {
+	position: relative;
+}
+
+svg {
+	position: absolute;
+	top: 27%;
+	right: 10px;
+	opacity: 0.5;
+}
