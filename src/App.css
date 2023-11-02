@@ -92,3 +92,18 @@ svg {
 	right: 10px;
 	opacity: 0.5;
 }
+
+footer {
+	padding: 80px 0;
+}
+
+footer p {
+	text-align: center;
+	font-size: 15px;
+}
+
+footer a {
+	color: black;
+	font-weight: 700;
+	text-decoration: none;
+}

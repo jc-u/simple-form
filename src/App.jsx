@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import Form from "./components/Form";
 import ResultsForm from "./components/ResultsForm";
+import Footer from "./components/Footer";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
 	faEye,
@@ -33,6 +34,7 @@ function App() {
 					<Form onSubmit={handleFormSubmit} />
 				)}
 			</div>
+			<Footer />
 		</>
 	);
 }
